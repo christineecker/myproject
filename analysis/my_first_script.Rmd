@@ -1,0 +1,16 @@
+---
+title: "my_first_script"
+author: "Christine Ecker"
+date: "2024-04-26"
+output: workflowr::wflow_html
+editor_options:
+  chunk_output_type: console
+---
+
+## Introduction
+
+```{r}
+x <- c(1, 2, 3)
+plot(x)
+```
+
